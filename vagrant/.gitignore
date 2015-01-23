@@ -1,0 +1,6 @@
+#################
+## Vagrant stuff
+#################
+
+.vagrant
+package.box
