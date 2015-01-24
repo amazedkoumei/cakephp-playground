@@ -4,4 +4,7 @@
 vagrant/webroot/app/tmp/*
 #vagrant/webroot/app/Config/core.php
 #vagrant/webroot/app/Config/database.php
-vagrant/webroot/vendors/*
+vagrant/webroot/vendors
+
+# plugins are listed at .gitmodules
+vagrant/webroot/app/Plugin/*
