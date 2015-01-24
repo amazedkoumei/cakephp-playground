@@ -1,12 +1,7 @@
 .DS_Store
 
 # https://github.com/github/gitignore/blob/master/CakePHP.gitignore
-cakephp/app/tmp/*
-cakephp/app/Config/core.php
-cakephp/app/Config/database.php
-cakephp/vendors/*
-
 vagrant/webroot/app/tmp/*
-vagrant/webroot/app/Config/core.php
+#vagrant/webroot/app/Config/core.php
 vagrant/webroot/app/Config/database.php
 vagrant/webroot/vendors/*
