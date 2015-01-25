@@ -30,8 +30,13 @@ need this process just at first time.
 $ git clone https://github.com/amazedkoumei/cakephp-playground.git
 $ git submodule init
 $ git submodule update
+$ chmod -R 777 vagrant/webroot/app/tmp
 ```
 
+#### Note
+
+ファイルパーミッションがなぜか github で無視される。
+`git config core.filemode` は `true`。
 
 ### daily use
 
@@ -40,16 +45,5 @@ $ cd vagrant
 $ vagrant up
 ```
 
-### setting up mysql
-
-if it's first time use, do below.
-
-```
-$ vagrant ssh
-vagrant@dev:~$ mysql -u root -p # pass is "root"
-mysql> create database playground;
-mysql> create database test_playground;
-```
-
-
 and access to [http://33.33.33.10/](http://33.33.33.10/)
+
