@@ -50,3 +50,9 @@ and access to [http://33.33.33.10/](http://33.33.33.10/)
 ### create a new CakePHP app
 
 use [this version](https://github.com/amazedkoumei/cakephp-playground/releases)
+
+
+about basement branch
+---
+
+creating a new CakePHP app のための branch
