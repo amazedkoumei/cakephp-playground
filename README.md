@@ -7,7 +7,7 @@ how did I make this repo.
 
 ```
 $ git clone https://github.com/borivojevic/cakephp-vagrant.git vagrant
-$ git clone git clone https://github.com/cakephp/cakephp.git vagrant/webroot/
+$ git clone https://github.com/cakephp/cakephp.git vagrant/webroot/
 $ chmod -R 777 vagrant/webroot/app/tmp
 $ ln -s vagrant/webroot/ cakephp
 ```
